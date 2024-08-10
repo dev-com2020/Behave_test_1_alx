@@ -1,10 +1,10 @@
 Feature: Step Params
   Scenario Outline: Blenders
-    Given I put "<thing>" in a blender
-    When I switch the blender on
-    Then it should transform into "<other_thing>"
+    Given I put "<things>" in a blenders
+    When I switch the blender on!
+    Then it should transform into "<other_things>!"
 
     Examples:
-    | thing       | other_thing |
-    | apples      | apple juice |
-    | iPhone      | toxic waste |
+    | things       | other_things |
+    | apples       | apple juice  |
+    | iphone       | toxic waste  |

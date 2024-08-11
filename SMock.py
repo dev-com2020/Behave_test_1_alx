@@ -1,4 +1,4 @@
-class Mock:
+class SMock:
     def __init__(self):
         self.called = False
         self.params = ()

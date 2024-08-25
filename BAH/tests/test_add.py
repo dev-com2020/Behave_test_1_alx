@@ -1,4 +1,4 @@
-from my_module import add, multiply, odejmowanie
+from BAH.my_module import add, multiply, odejmowanie
 
 
 def test_add():

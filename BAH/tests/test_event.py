@@ -1,6 +1,6 @@
 import unittest
 from unittest import mock
-from event import Event
+from BAH.event import Event
 
 
 # class EventTest(unittest.TestCase):

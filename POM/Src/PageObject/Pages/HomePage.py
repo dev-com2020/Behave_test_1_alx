@@ -8,5 +8,5 @@ class Home:
         self.driver = driver
         self.contact = driver.find_element(By.XPATH, Locator.contact)
 
-    def contact_button(self):
+    def get_contact_button(self):
         return self.contact

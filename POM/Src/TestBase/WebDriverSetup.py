@@ -8,7 +8,7 @@ class WebDriverSetup(unittest.TestCase):
 
     def setUp(self):
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(10)
 
     def tearDown(self):

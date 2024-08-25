@@ -1,8 +1,13 @@
+import os
+import sys
 import unittest
 
 from POM.Src.PageObject.Pages.HomePage import Home
 from POM.Src.TestBase.WebDriverSetup import WebDriverSetup
 
+sys.path.append(sys.path[0] + "/...")
+# Uncomment if the above example gives you a relative path error
+sys.path.append(os.getcwd())
 
 class DemoBlazeHomePage(WebDriverSetup):
     def test_Home_Page(self):

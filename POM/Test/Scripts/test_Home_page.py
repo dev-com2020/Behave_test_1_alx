@@ -9,6 +9,7 @@ sys.path.append(sys.path[0] + "/...")
 # Uncomment if the above example gives you a relative path error
 sys.path.append(os.getcwd())
 
+
 class DemoBlazeHomePage(WebDriverSetup):
     def test_Home_Page(self):
         driver = self.driver
@@ -25,6 +26,7 @@ class DemoBlazeHomePage(WebDriverSetup):
             print(error, "WebPage failed!")
 
         home_page = Home(driver)
+
 
 if __name__ == '__main__':
     unittest.main()
